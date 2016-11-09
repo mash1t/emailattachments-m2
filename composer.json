@@ -1,0 +1,29 @@
+{
+  "name": "fooman/ext.fooman.magento2.emailattachments",
+  "license": "OSL-3.0",
+  "description": "Automatically attach pdf and terms and conditions documents to outgoing sales emails.",
+  "type": "magento2-module",
+  "autoload": {
+    "psr-4": {
+      "Fooman\\EmailAttachments\\": "src/"
+    },
+    "files": [
+      "src/registration.php"
+    ]
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://repo.magento.com/"
+    }
+  ],
+  "require-dev": {
+    "phpunit/phpunit": "^4.5"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "suggest": {
+    "fooman/ext.fooman.magento2.printorderpdf":"Allows attaching the order confirmation pdf to the order confirmation email",
+    "fooman/ext.fooman.magneto2.pdfcustomiser":"Allows to easily customise the sales pdfs while also reducing file sizes "
+  }
+}
