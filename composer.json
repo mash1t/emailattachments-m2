@@ -1,5 +1,5 @@
 {
-  "name": "fooman/ext.fooman.magento2.emailattachments",
+  "name": "fooman/ext.magento2.fooman.emailattachments",
   "license": "OSL-3.0",
   "description": "Automatically attach pdf and terms and conditions documents to outgoing sales emails.",
   "type": "magento2-module",
